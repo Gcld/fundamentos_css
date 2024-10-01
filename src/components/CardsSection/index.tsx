@@ -22,6 +22,10 @@ export default function CardsSection() {
             <Card imgSrc={CardImage6.src} cardName="Hampton (VA)"/>
             <Card imgSrc={CardImage7.src} cardName="Krasnodar"/>
             <Card imgSrc={CardImage8.src} cardName="Morón"/>
+            <Card imgSrc={CardImage4.src} cardName="Bahía Blanca"/>
+            <Card imgSrc={CardImage2.src} cardName="San Isidro"/>
+            <Card imgSrc={CardImage5.src} cardName="Gelsenkirchen"/>
+            <Card imgSrc={CardImage6.src} cardName="Hampton (VA)"/>
         </Container>
     );
 }
