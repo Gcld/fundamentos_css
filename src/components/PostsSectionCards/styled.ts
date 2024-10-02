@@ -2,12 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 566px));
     gap: 20px;
+    justify-content: center;
+    width: 100%;
     padding-top: 34px;
-`
+`;

@@ -6,9 +6,8 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    max-width: 333px;
-    height: auto;
+    width: 333px;
+    height: 413px;
     border: 1px solid var(--grayZaori);
     border-radius: 10px;
     gap: 20px;
