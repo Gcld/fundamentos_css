@@ -14,7 +14,7 @@ export const Container = styled.div`
     z-index: 1000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-    img {
+    .logo {
         height: 49px;
         width: auto;
     }
@@ -25,5 +25,25 @@ export const Container = styled.div`
         transform: translateX(-50%);
         display: flex;
         align-items: center;
+    }
+
+    @media (max-width: 768px) {
+        padding: 0 15px;
+
+        .logo {
+            height: 40px;
+        }
+
+        .spacer {
+            position: static;
+            transform: none;
+            margin-left: auto;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .logo {
+            height: 35px;
+        }
     }
 `;

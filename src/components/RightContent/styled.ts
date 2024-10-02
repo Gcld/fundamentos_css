@@ -6,7 +6,7 @@ export const Container = styled.div`
     max-width: 682px;
     height: auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
     img {
         max-width: 100%;
