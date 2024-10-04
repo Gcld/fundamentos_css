@@ -4,7 +4,7 @@ import { Container } from "./styled";
 
 export default function Galeria() {
     return (
-        <Container>
+        <Container id="galeria">
             <TituloSection/>
             <CardsSection/>
         </Container>

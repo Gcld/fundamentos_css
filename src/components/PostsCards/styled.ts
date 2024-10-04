@@ -14,6 +14,11 @@ export const Container = styled.div`
     gap: 21px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 20px 24px;
+    @media (max-width: 520px) {
+        width: 320px;
+        font-size: 18px;
+        margin: 0 auto;
+    }
 
     .header {
         display: flex;

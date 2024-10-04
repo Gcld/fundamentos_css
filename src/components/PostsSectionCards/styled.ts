@@ -6,5 +6,5 @@ export const Container = styled.div`
     gap: 20px;
     justify-content: center;
     width: 100%;
-    padding-top: 34px;
+    padding-top: 62px;
 `;

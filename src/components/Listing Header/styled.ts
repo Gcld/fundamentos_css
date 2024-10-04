@@ -17,6 +17,7 @@ export const Container = styled.div`
         text-decoration: underline 3px;
         text-underline-offset: 5px;
     }
+    
 
     @media (max-width: 768px) {
         gap: 20px;

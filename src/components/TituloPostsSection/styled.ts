@@ -27,4 +27,8 @@ export const Descricao = styled.div`
     font-size: 24px;
     line-height: 36px;
     text-align: center;
+    @media (max-width: 520px) {
+        width: 300px;
+        font-size: 18px;
+    }
 `;

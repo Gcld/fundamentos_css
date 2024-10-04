@@ -6,6 +6,7 @@ interface CardProps {
     cardName: string;
 }
 
+
 export default function Card({imgSrc, cardName} : CardProps) {
     return (
         <Container>

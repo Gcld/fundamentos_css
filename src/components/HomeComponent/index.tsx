@@ -6,7 +6,7 @@ import { Container } from "./styled";
 
 export default function HomeComponent() {
     return (
-        <Container>
+        <Container id="header">
             <LeftContent/>
             <RightContent/>
         </Container>
